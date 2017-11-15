@@ -1,0 +1,230 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="External Files">
+      <UniqueIdentifier>{82151ceb-b771-482a-b421-e6f81b24e10a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+    <None Include="res\AutoDevice.rc2">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\AutoDeviceDoc.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\AutoDevice.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Toolbar.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\toolbar1.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AutoDevice.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MainFrm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AutoDeviceDoc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AutoDeviceView.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Label.h">
+      <Filter>External Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Lala.h">
+      <Filter>External Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\DMC2410.h">
+      <Filter>External Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AxisParDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AxisZeroDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CheckParDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AppConDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CameraParDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\DrawMenu.h">
+      <Filter>External Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Gerber.h">
+      <Filter>External Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ScrollBitmapWnd.h">
+      <Filter>External Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Lts_Dll.h">
+      <Filter>External Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\DataStruct.h">
+      <Filter>External Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NewProjectDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageProcess\CvvImage.h">
+      <Filter>External Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageProcess\ExtendHoughCircle.h">
+      <Filter>External Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageProcess\PcbInspect.h">
+      <Filter>External Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NavigateDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AddSolderDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AxisMoveDlg.h">
+      <Filter>External Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GxmcCode\GxmcDatabase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GxmcCode\GxmcDraw.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GxmcCode\GxmcGerber.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MeasureView.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ProjectView.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BaselineCorrectView.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AutoDevice.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MainFrm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AutoDeviceDoc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AutoDeviceView.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="include\Label.cpp">
+      <Filter>External Files</Filter>
+    </ClCompile>
+    <ClCompile Include="include\Lala.cpp">
+      <Filter>External Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AxisParDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AxisZeroDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AxisMoveDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CheckParDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AppConDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CameraParDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="include\DrawMenu.cpp">
+      <Filter>External Files</Filter>
+    </ClCompile>
+    <ClCompile Include="include\Gerber.cpp">
+      <Filter>External Files</Filter>
+    </ClCompile>
+    <ClCompile Include="include\ScrollBitmapWnd.cpp">
+      <Filter>External Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NewProjectDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageProcess\CvvImage.cpp">
+      <Filter>External Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageProcess\ExtendHoughCircle.cpp">
+      <Filter>External Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageProcess\PcbInspect.cpp">
+      <Filter>External Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NavigateDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AddSolderDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GxmcCode\GxmcDatabase.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GxmcCode\GxmcDraw.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GxmcCode\GxmcGerber.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MeasureView.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ProjectView.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BaselineCorrectView.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="AutoDevice.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

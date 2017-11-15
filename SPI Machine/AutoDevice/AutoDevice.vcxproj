@@ -1,0 +1,196 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{54EF0C5C-3B7F-4D85-9C54-A2AB74BAAE6A}</ProjectGuid>
+    <RootNamespace>AutoDevice</RootNamespace>
+    <Keyword>MFCProj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Static</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>..\AutoDevice\opencv\include;..\AutoDevice\opencv\include\opencv2;..\AutoDevice\opencv\include\opencv;$(IncludePath)</IncludePath>
+    <LibraryPath>..\AutoDevice\opencv\vc10\lib;$(LibraryPath)</LibraryPath>
+    <IntDir>..\..\..\Visual Studio 2010 Intermediate Directory</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>D:\AutoDevice\AutoDevice\opencv\include\opencv2;D:\AutoDevice\AutoDevice\opencv\include\opencv;D:\AutoDevice\AutoDevice\opencv\include;D:\AutoDevice\AutoDevice\VTK5.10Release\include\vtk-5.10;$(IncludePath)</IncludePath>
+    <LibraryPath>D:\AutoDevice\AutoDevice\opencv\vc10\lib;D:\AutoDevice\AutoDevice\VTK5.10Release\lib\vtk-5.10;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(PYLON_DEV_DIR)\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>$(PYLON_DEV_DIR)\lib\Win32;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;opencv_core2410d.lib;opencv_features2d2410d.lib;opencv_highgui2410d.lib;opencv_imgproc2410d.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <Profile>true</Profile>
+      <ProgramDatabaseFile>$(TargetDir)$(TargetName).pdb</ProgramDatabaseFile>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0804</Culture>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(PYLON_DEV_DIR)\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalLibraryDirectories>$(PYLON_DEV_DIR)\lib\Win32;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;opencv_calib3d2410d.lib;opencv_contrib2410d.lib;opencv_core2410d.lib;opencv_features2d2410d.lib;opencv_flann2410d.lib;opencv_gpu2410d.lib;opencv_highgui2410d.lib;opencv_imgproc2410d.lib;opencv_legacy2410d.lib;opencv_ml2410d.lib;opencv_nonfree2410d.lib;opencv_objdetect2410d.lib;opencv_photo2410d.lib;opencv_stitching2410d.lib;opencv_ts2410d.lib;opencv_video2410d.lib;opencv_videostab2410d.lib;opencv_calib3d2410.lib;opencv_contrib2410.lib;opencv_core2410.lib;opencv_features2d2410.lib;opencv_flann2410.lib;opencv_gpu2410.lib;opencv_highgui2410.lib;opencv_imgproc2410.lib;opencv_legacy2410.lib;opencv_ml2410.lib;opencv_nonfree2410.lib;opencv_objdetect2410.lib;opencv_photo2410.lib;opencv_stitching2410.lib;opencv_ts2410.lib;opencv_video2410.lib;opencv_videostab2410.lib;vtkMFC.lib;vtkIO.lib;vtkRendering.lib;vtkGraphics.lib;vtkHybrid.lib;vtkFiltering.lib;vtkCommon.lib;vtkImaging.lib;vtkWidgets.lib;vtkexoIIc.lib;vtkVolumeRendering.lib;vtkDICOMParser.lib;vtkNetCDF_cxx.lib;vtkNetCDF.lib;vtkhdf5_hl.lib;vtkhdf5.lib;LSDyna.lib;vtkmetaio.lib;vtksqlite.lib;vtkpng.lib;vtktiff.lib;vtkzlib.lib;vtkjpeg.lib;vtkexpat.lib;vtkverdict.lib;vtksys.lib;vtkftgl.lib;vtkfreetype.lib;comctl32.lib;vfw32.lib;ws2_32.lib;wsock32.lib;wbemuuid.lib;opengl32.lib;d3d9.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0804</Culture>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+    <None Include="res\AutoDevice.ico" />
+    <None Include="res\AutoDevice.rc2" />
+    <None Include="res\AutoDeviceDoc.ico" />
+    <None Include="res\Toolbar.bmp" />
+    <None Include="res\toolbar1.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\GxmcCode\GxmcDatabase.h" />
+    <ClInclude Include="..\GxmcCode\GxmcDraw.h" />
+    <ClInclude Include="..\GxmcCode\GxmcGerber.h" />
+    <ClInclude Include="AddSolderDlg.h" />
+    <ClInclude Include="AppConDlg.h" />
+    <ClInclude Include="AutoDevice.h" />
+    <ClInclude Include="AutoDeviceDoc.h" />
+    <ClInclude Include="AutoDeviceView.h" />
+    <ClInclude Include="AxisMoveDlg.h" />
+    <ClInclude Include="AxisParDlg.h" />
+    <ClInclude Include="AxisZeroDlg.h" />
+    <ClInclude Include="BaselineCorrectView.h" />
+    <ClInclude Include="CameraParDlg.h" />
+    <ClInclude Include="CheckParDlg.h" />
+    <ClInclude Include="ImageProcess\CvvImage.h" />
+    <ClInclude Include="ImageProcess\ExtendHoughCircle.h" />
+    <ClInclude Include="ImageProcess\PcbInspect.h" />
+    <ClInclude Include="include\DataStruct.h" />
+    <ClInclude Include="include\DMC2410.h" />
+    <ClInclude Include="include\DrawMenu.h" />
+    <ClInclude Include="include\Gerber.h" />
+    <ClInclude Include="include\Label.h" />
+    <ClInclude Include="include\Lala.h" />
+    <ClInclude Include="include\Lts_Dll.h" />
+    <ClInclude Include="include\ScrollBitmapWnd.h" />
+    <ClInclude Include="MainFrm.h" />
+    <ClInclude Include="MeasureView.h" />
+    <ClInclude Include="NavigateDlg.h" />
+    <ClInclude Include="NewProjectDlg.h" />
+    <ClInclude Include="ProjectView.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\GxmcCode\GxmcDatabase.cpp" />
+    <ClCompile Include="..\GxmcCode\GxmcDraw.cpp" />
+    <ClCompile Include="..\GxmcCode\GxmcGerber.cpp" />
+    <ClCompile Include="AddSolderDlg.cpp" />
+    <ClCompile Include="AppConDlg.cpp" />
+    <ClCompile Include="AutoDevice.cpp" />
+    <ClCompile Include="AutoDeviceDoc.cpp" />
+    <ClCompile Include="AutoDeviceView.cpp" />
+    <ClCompile Include="AxisMoveDlg.cpp" />
+    <ClCompile Include="AxisParDlg.cpp" />
+    <ClCompile Include="AxisZeroDlg.cpp" />
+    <ClCompile Include="BaselineCorrectView.cpp" />
+    <ClCompile Include="CameraParDlg.cpp" />
+    <ClCompile Include="CheckParDlg.cpp" />
+    <ClCompile Include="ImageProcess\CvvImage.cpp" />
+    <ClCompile Include="ImageProcess\ExtendHoughCircle.cpp" />
+    <ClCompile Include="ImageProcess\PcbInspect.cpp" />
+    <ClCompile Include="include\DrawMenu.cpp" />
+    <ClCompile Include="include\Gerber.cpp" />
+    <ClCompile Include="include\Label.cpp" />
+    <ClCompile Include="include\Lala.cpp" />
+    <ClCompile Include="include\ScrollBitmapWnd.cpp" />
+    <ClCompile Include="MainFrm.cpp" />
+    <ClCompile Include="MeasureView.cpp" />
+    <ClCompile Include="NavigateDlg.cpp" />
+    <ClCompile Include="NewProjectDlg.cpp" />
+    <ClCompile Include="ProjectView.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="AutoDevice.rc" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties RESOURCE_FILE="AutoDevice.rc" />
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

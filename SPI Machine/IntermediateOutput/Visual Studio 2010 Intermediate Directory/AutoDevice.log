@@ -1,0 +1,366 @@
+﻿Build started 2017/11/14 13:39:15.
+     1>Project "D:\AutoDevice 1113\AutoDevice\AutoDevice.vcxproj" on node 2 (build target(s)).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(298,5): warning MSB8004: Intermediate Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Intermediate Directory.
+     1>InitializeBuildStatus:
+         Creating "..\IntermediateOutput\Visual Studio 2010 Intermediate Directory\AutoDevice.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         D:\Visual Studio 2010\VC\bin\CL.exe /c /I"D:\Basler\pylon 5\development\include" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"..\IntermediateOutput\Visual Studio 2010 Intermediate Directory\AutoDevice.pch" /Fo"..\IntermediateOutput\Visual Studio 2010 Intermediate Directory\\" /Fd"..\IntermediateOutput\Visual Studio 2010 Intermediate Directory\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         D:\Visual Studio 2010\VC\bin\CL.exe /c /I"D:\Basler\pylon 5\development\include" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"..\IntermediateOutput\Visual Studio 2010 Intermediate Directory\AutoDevice.pch" /Fo"..\IntermediateOutput\Visual Studio 2010 Intermediate Directory\\" /Fd"..\IntermediateOutput\Visual Studio 2010 Intermediate Directory\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\GxmcCode\GxmcDatabase.cpp ..\GxmcCode\GxmcDraw.cpp ..\GxmcCode\GxmcGerber.cpp AddSolderDlg.cpp AppConDlg.cpp AutoDevice.cpp AutoDeviceDoc.cpp AutoDeviceView.cpp AxisMoveDlg.cpp AxisParDlg.cpp AxisZeroDlg.cpp BaselineCorrectView.cpp CameraParDlg.cpp CheckParDlg.cpp ImageProcess\CvvImage.cpp ImageProcess\ExtendHoughCircle.cpp ImageProcess\PcbInspect.cpp include\DrawMenu.cpp include\Gerber.cpp include\Label.cpp include\Lala.cpp include\ScrollBitmapWnd.cpp MainFrm.cpp MeasureView.cpp NavigateDlg.cpp NewProjectDlg.cpp ProjectView.cpp
+         ProjectView.cpp
+         NewProjectDlg.cpp
+     1>d:\autodevice 1113\autodevice\opencv\include\opencv2\flann\logger.h(66): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\visual studio 2010\vc\include\stdio.h(234) : see declaration of 'fopen'
+     1>d:\autodevice 1113\autodevice\newprojectdlg.cpp(75): warning C4244: 'argument' : conversion from 'DOUBLE' to 'int', possible loss of data
+     1>d:\autodevice 1113\autodevice\newprojectdlg.cpp(103): warning C4244: '=' : conversion from 'DOUBLE' to 'float', possible loss of data
+     1>d:\autodevice 1113\autodevice\newprojectdlg.cpp(104): warning C4244: '=' : conversion from 'DOUBLE' to 'float', possible loss of data
+     1>d:\autodevice 1113\autodevice\newprojectdlg.cpp(170): warning C4244: 'initializing' : conversion from 'DOUBLE' to 'float', possible loss of data
+     1>d:\autodevice 1113\autodevice\newprojectdlg.cpp(171): warning C4244: 'initializing' : conversion from 'DOUBLE' to 'float', possible loss of data
+     1>d:\autodevice 1113\autodevice\newprojectdlg.cpp(180): warning C4244: '=' : conversion from 'DOUBLE' to 'LONG', possible loss of data
+     1>d:\autodevice 1113\autodevice\newprojectdlg.cpp(181): warning C4244: '=' : conversion from 'DOUBLE' to 'LONG', possible loss of data
+     1>d:\autodevice 1113\autodevice\newprojectdlg.cpp(185): warning C4244: '=' : conversion from 'DOUBLE' to 'LONG', possible loss of data
+     1>d:\autodevice 1113\autodevice\newprojectdlg.cpp(186): warning C4244: '=' : conversion from 'DOUBLE' to 'LONG', possible loss of data
+     1>d:\autodevice 1113\autodevice\newprojectdlg.cpp(196): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\autodevice 1113\autodevice\newprojectdlg.cpp(198): warning C4244: '=' : conversion from 'double' to 'LONG', possible loss of data
+     1>d:\autodevice 1113\autodevice\newprojectdlg.cpp(199): warning C4244: '=' : conversion from 'double' to 'LONG', possible loss of data
+     1>d:\autodevice 1113\autodevice\newprojectdlg.cpp(200): warning C4244: '=' : conversion from 'double' to 'LONG', possible loss of data
+     1>d:\autodevice 1113\autodevice\newprojectdlg.cpp(201): warning C4244: '=' : conversion from 'double' to 'LONG', possible loss of data
+     1>d:\autodevice 1113\autodevice\newprojectdlg.cpp(228): warning C4244: '=' : conversion from 'DOUBLE' to 'float', possible loss of data
+     1>d:\autodevice 1113\autodevice\newprojectdlg.cpp(229): warning C4244: '=' : conversion from 'DOUBLE' to 'float', possible loss of data
+     1>d:\autodevice 1113\autodevice\newprojectdlg.cpp(244): warning C4244: '=' : conversion from 'float' to 'LONG', possible loss of data
+     1>d:\autodevice 1113\autodevice\newprojectdlg.cpp(245): warning C4244: '=' : conversion from 'float' to 'LONG', possible loss of data
+     1>d:\autodevice 1113\autodevice\newprojectdlg.cpp(283): warning C4244: 'argument' : conversion from 'DOUBLE' to 'long', possible loss of data
+     1>d:\autodevice 1113\autodevice\newprojectdlg.cpp(292): warning C4244: 'argument' : conversion from 'DOUBLE' to 'long', possible loss of data
+     1>d:\autodevice 1113\autodevice\newprojectdlg.cpp(301): warning C4244: 'argument' : conversion from 'DOUBLE' to 'long', possible loss of data
+     1>d:\autodevice 1113\autodevice\newprojectdlg.cpp(332): warning C4244: '=' : conversion from 'DOUBLE' to 'float', possible loss of data
+     1>d:\autodevice 1113\autodevice\newprojectdlg.cpp(333): warning C4244: '=' : conversion from 'DOUBLE' to 'float', possible loss of data
+     1>d:\autodevice 1113\autodevice\newprojectdlg.cpp(352): warning C4244: '=' : conversion from 'DOUBLE' to 'float', possible loss of data
+     1>d:\autodevice 1113\autodevice\newprojectdlg.cpp(353): warning C4244: '=' : conversion from 'DOUBLE' to 'float', possible loss of data
+     1>d:\autodevice 1113\autodevice\newprojectdlg.cpp(369): warning C4244: '=' : conversion from 'DOUBLE' to 'float', possible loss of data
+     1>d:\autodevice 1113\autodevice\newprojectdlg.cpp(370): warning C4244: '=' : conversion from 'DOUBLE' to 'float', possible loss of data
+     1>d:\autodevice 1113\autodevice\newprojectdlg.cpp(412): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\autodevice 1113\autodevice\newprojectdlg.cpp(444): warning C4244: 'argument' : conversion from 'DOUBLE' to 'int', possible loss of data
+     1>d:\autodevice 1113\autodevice\newprojectdlg.cpp(444): warning C4244: 'argument' : conversion from 'DOUBLE' to 'int', possible loss of data
+     1>d:\autodevice 1113\autodevice\newprojectdlg.cpp(444): warning C4244: 'argument' : conversion from 'DOUBLE' to 'int', possible loss of data
+     1>d:\autodevice 1113\autodevice\newprojectdlg.cpp(444): warning C4244: 'argument' : conversion from 'DOUBLE' to 'int', possible loss of data
+     1>d:\autodevice 1113\autodevice\newprojectdlg.cpp(473): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>d:\autodevice 1113\autodevice\newprojectdlg.cpp(474): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>d:\autodevice 1113\autodevice\newprojectdlg.cpp(538): warning C4244: 'argument' : conversion from 'DOUBLE' to 'long', possible loss of data
+     1>d:\autodevice 1113\autodevice\newprojectdlg.cpp(547): warning C4244: 'argument' : conversion from 'DOUBLE' to 'long', possible loss of data
+     1>d:\autodevice 1113\autodevice\newprojectdlg.cpp(556): warning C4244: 'argument' : conversion from 'DOUBLE' to 'long', possible loss of data
+     1>d:\autodevice 1113\autodevice\newprojectdlg.cpp(629): warning C4244: '=' : conversion from 'DOUBLE' to 'int', possible loss of data
+         NavigateDlg.cpp
+     1>d:\autodevice 1113\autodevice\opencv\include\opencv2\flann\logger.h(66): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\visual studio 2010\vc\include\stdio.h(234) : see declaration of 'fopen'
+     1>d:\autodevice 1113\autodevice\navigatedlg.cpp(75): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>d:\autodevice 1113\autodevice\navigatedlg.cpp(75): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>d:\autodevice 1113\autodevice\navigatedlg.cpp(153): warning C4244: 'argument' : conversion from 'DOUBLE' to 'long', possible loss of data
+     1>d:\autodevice 1113\autodevice\navigatedlg.cpp(162): warning C4244: 'argument' : conversion from 'DOUBLE' to 'long', possible loss of data
+     1>d:\autodevice 1113\autodevice\navigatedlg.cpp(171): warning C4244: 'argument' : conversion from 'DOUBLE' to 'long', possible loss of data
+         MeasureView.cpp
+         MainFrm.cpp
+     1>d:\autodevice 1113\autodevice\opencv\include\opencv2\flann\logger.h(66): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\visual studio 2010\vc\include\stdio.h(234) : see declaration of 'fopen'
+         ScrollBitmapWnd.cpp
+         Lala.cpp
+         Label.cpp
+         Gerber.cpp
+     1>d:\autodevice 1113\autodevice\include\gerber.cpp(41): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\visual studio 2010\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>d:\autodevice 1113\autodevice\include\gerber.cpp(35): warning C4101: 'c' : unreferenced local variable
+     1>d:\autodevice 1113\autodevice\include\gerber.cpp(173): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>d:\autodevice 1113\autodevice\include\gerber.cpp(183): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>d:\autodevice 1113\autodevice\include\gerber.cpp(193): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>d:\autodevice 1113\autodevice\include\gerber.cpp(194): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>d:\autodevice 1113\autodevice\include\gerber.cpp(198): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>d:\autodevice 1113\autodevice\include\gerber.cpp(198): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>d:\autodevice 1113\autodevice\include\gerber.cpp(74): warning C4101: 'ilabel' : unreferenced local variable
+     1>d:\autodevice 1113\autodevice\include\gerber.cpp(75): warning C4101: 'jlabel' : unreferenced local variable
+     1>d:\autodevice 1113\autodevice\include\gerber.cpp(350): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>d:\autodevice 1113\autodevice\include\gerber.cpp(351): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>d:\autodevice 1113\autodevice\include\gerber.cpp(352): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>d:\autodevice 1113\autodevice\include\gerber.cpp(353): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>d:\autodevice 1113\autodevice\include\gerber.cpp(356): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>d:\autodevice 1113\autodevice\include\gerber.cpp(357): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>d:\autodevice 1113\autodevice\include\gerber.cpp(358): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>d:\autodevice 1113\autodevice\include\gerber.cpp(359): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>d:\autodevice 1113\autodevice\include\gerber.cpp(363): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>d:\autodevice 1113\autodevice\include\gerber.cpp(363): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>d:\autodevice 1113\autodevice\include\gerber.cpp(403): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>d:\autodevice 1113\autodevice\include\gerber.cpp(409): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>d:\autodevice 1113\autodevice\include\gerber.cpp(425): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>d:\autodevice 1113\autodevice\include\gerber.cpp(495): warning C4101: 'dir' : unreferenced local variable
+     1>d:\autodevice 1113\autodevice\include\gerber.cpp(496): warning C4101: 'arcStyle' : unreferenced local variable
+     1>d:\autodevice 1113\autodevice\include\gerber.cpp(534): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>d:\autodevice 1113\autodevice\include\gerber.cpp(547): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>d:\autodevice 1113\autodevice\include\gerber.cpp(547): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>d:\autodevice 1113\autodevice\include\gerber.cpp(552): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>d:\autodevice 1113\autodevice\include\gerber.cpp(552): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>d:\autodevice 1113\autodevice\include\gerber.cpp(587): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>d:\autodevice 1113\autodevice\include\gerber.cpp(587): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>d:\autodevice 1113\autodevice\include\gerber.cpp(587): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>d:\autodevice 1113\autodevice\include\gerber.cpp(587): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>d:\autodevice 1113\autodevice\include\gerber.cpp(615): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>d:\autodevice 1113\autodevice\include\gerber.cpp(615): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>d:\autodevice 1113\autodevice\include\gerber.cpp(620): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>d:\autodevice 1113\autodevice\include\gerber.cpp(620): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>d:\autodevice 1113\autodevice\include\gerber.cpp(665): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>d:\autodevice 1113\autodevice\include\gerber.cpp(665): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>d:\autodevice 1113\autodevice\include\gerber.cpp(665): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>d:\autodevice 1113\autodevice\include\gerber.cpp(665): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>d:\autodevice 1113\autodevice\include\gerber.cpp(675): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>d:\autodevice 1113\autodevice\include\gerber.cpp(675): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>d:\autodevice 1113\autodevice\include\gerber.cpp(675): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>d:\autodevice 1113\autodevice\include\gerber.cpp(675): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>d:\autodevice 1113\autodevice\include\gerber.cpp(687): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>d:\autodevice 1113\autodevice\include\gerber.cpp(687): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>d:\autodevice 1113\autodevice\include\gerber.cpp(687): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>d:\autodevice 1113\autodevice\include\gerber.cpp(687): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>d:\autodevice 1113\autodevice\include\gerber.cpp(697): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>d:\autodevice 1113\autodevice\include\gerber.cpp(697): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>d:\autodevice 1113\autodevice\include\gerber.cpp(697): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>d:\autodevice 1113\autodevice\include\gerber.cpp(697): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>d:\autodevice 1113\autodevice\include\gerber.cpp(822): warning C4244: '=' : conversion from 'float' to 'LONG', possible loss of data
+     1>d:\autodevice 1113\autodevice\include\gerber.cpp(823): warning C4244: '=' : conversion from 'float' to 'LONG', possible loss of data
+     1>d:\autodevice 1113\autodevice\include\gerber.cpp(825): warning C4244: '=' : conversion from 'float' to 'LONG', possible loss of data
+     1>d:\autodevice 1113\autodevice\include\gerber.cpp(826): warning C4244: '=' : conversion from 'float' to 'LONG', possible loss of data
+     1>d:\autodevice 1113\autodevice\include\gerber.cpp(841): warning C4244: 'argument' : conversion from 'LONG' to 'float', possible loss of data
+     1>d:\autodevice 1113\autodevice\include\gerber.cpp(841): warning C4244: 'argument' : conversion from 'LONG' to 'float', possible loss of data
+     1>d:\autodevice 1113\autodevice\include\gerber.cpp(854): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>d:\autodevice 1113\autodevice\include\gerber.cpp(854): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>d:\autodevice 1113\autodevice\include\gerber.cpp(963): warning C4305: '=' : truncation from 'double' to 'float'
+     1>d:\autodevice 1113\autodevice\include\gerber.cpp(974): warning C4305: '=' : truncation from 'double' to 'float'
+     1>d:\autodevice 1113\autodevice\include\gerber.cpp(975): warning C4305: '=' : truncation from 'double' to 'float'
+     1>d:\autodevice 1113\autodevice\include\gerber.cpp(1004): warning C4305: '=' : truncation from 'double' to 'float'
+     1>d:\autodevice 1113\autodevice\include\gerber.cpp(1016): warning C4305: '=' : truncation from 'double' to 'float'
+     1>d:\autodevice 1113\autodevice\include\gerber.cpp(1017): warning C4305: '=' : truncation from 'double' to 'float'
+     1>d:\autodevice 1113\autodevice\include\gerber.cpp(1184): warning C4101: 'dir' : unreferenced local variable
+     1>d:\autodevice 1113\autodevice\include\gerber.cpp(1300): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\autodevice 1113\autodevice\include\gerber.cpp(1301): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>d:\autodevice 1113\autodevice\include\gerber.cpp(1302): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+         DrawMenu.cpp
+         PcbInspect.cpp
+     1>d:\autodevice 1113\autodevice\opencv\include\opencv2\flann\logger.h(66): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\visual studio 2010\vc\include\stdio.h(234) : see declaration of 'fopen'
+     1>d:\autodevice 1113\autodevice\imageprocess\pcbinspect.cpp(32): warning C4244: '=' : conversion from 'float' to 'LONG', possible loss of data
+     1>d:\autodevice 1113\autodevice\imageprocess\pcbinspect.cpp(33): warning C4244: '=' : conversion from 'float' to 'LONG', possible loss of data
+     1>d:\autodevice 1113\autodevice\imageprocess\pcbinspect.cpp(41): warning C4244: '=' : conversion from 'float' to 'LONG', possible loss of data
+     1>d:\autodevice 1113\autodevice\imageprocess\pcbinspect.cpp(42): warning C4244: '=' : conversion from 'float' to 'LONG', possible loss of data
+     1>d:\autodevice 1113\autodevice\imageprocess\pcbinspect.cpp(96): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>d:\autodevice 1113\autodevice\imageprocess\pcbinspect.cpp(96): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>d:\autodevice 1113\autodevice\imageprocess\pcbinspect.cpp(97): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>d:\autodevice 1113\autodevice\imageprocess\pcbinspect.cpp(97): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>d:\autodevice 1113\autodevice\imageprocess\pcbinspect.cpp(97): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>d:\autodevice 1113\autodevice\imageprocess\pcbinspect.cpp(97): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>d:\autodevice 1113\autodevice\imageprocess\pcbinspect.cpp(171): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>d:\autodevice 1113\autodevice\imageprocess\pcbinspect.cpp(172): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>d:\autodevice 1113\autodevice\imageprocess\pcbinspect.cpp(173): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>d:\autodevice 1113\autodevice\imageprocess\pcbinspect.cpp(207): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>d:\autodevice 1113\autodevice\imageprocess\pcbinspect.cpp(207): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>d:\autodevice 1113\autodevice\imageprocess\pcbinspect.cpp(207): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>d:\autodevice 1113\autodevice\imageprocess\pcbinspect.cpp(275): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\autodevice 1113\autodevice\imageprocess\pcbinspect.cpp(275): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\autodevice 1113\autodevice\imageprocess\pcbinspect.cpp(276): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\autodevice 1113\autodevice\imageprocess\pcbinspect.cpp(276): warning C4305: 'argument' : truncation from 'double' to 'float'
+         ExtendHoughCircle.cpp
+     1>d:\autodevice 1113\autodevice\opencv\include\opencv2\flann\logger.h(66): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\visual studio 2010\vc\include\stdio.h(234) : see declaration of 'fopen'
+     1>d:\autodevice 1113\autodevice\imageprocess\extendhoughcircle.cpp(466): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>d:\autodevice 1113\autodevice\imageprocess\extendhoughcircle.cpp(466): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>d:\autodevice 1113\autodevice\imageprocess\extendhoughcircle.cpp(466): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+         CvvImage.cpp
+         CheckParDlg.cpp
+     1>d:\autodevice 1113\autodevice\checkpardlg.cpp(104): warning C4244: 'argument' : conversion from 'DOUBLE' to 'long', possible loss of data
+         CameraParDlg.cpp
+     1>d:\autodevice 1113\autodevice\camerapardlg.cpp(67): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>d:\autodevice 1113\autodevice\camerapardlg.cpp(111): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>d:\autodevice 1113\autodevice\camerapardlg.cpp(155): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+         BaselineCorrectView.cpp
+         AxisZeroDlg.cpp
+     1>d:\autodevice 1113\autodevice\opencv\include\opencv2\flann\logger.h(66): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\visual studio 2010\vc\include\stdio.h(234) : see declaration of 'fopen'
+         AxisParDlg.cpp
+         AxisMoveDlg.cpp
+     1>d:\autodevice 1113\autodevice\axismovedlg.cpp(82): warning C4244: 'argument' : conversion from 'DOUBLE' to 'long', possible loss of data
+     1>d:\autodevice 1113\autodevice\axismovedlg.cpp(94): warning C4244: 'argument' : conversion from 'DOUBLE' to 'long', possible loss of data
+     1>d:\autodevice 1113\autodevice\axismovedlg.cpp(106): warning C4244: 'argument' : conversion from 'DOUBLE' to 'long', possible loss of data
+     1>d:\autodevice 1113\autodevice\axismovedlg.cpp(118): warning C4244: 'argument' : conversion from 'DOUBLE' to 'long', possible loss of data
+     1>d:\autodevice 1113\autodevice\axismovedlg.cpp(130): warning C4244: 'argument' : conversion from 'DOUBLE' to 'long', possible loss of data
+     1>d:\autodevice 1113\autodevice\axismovedlg.cpp(142): warning C4244: 'argument' : conversion from 'DOUBLE' to 'long', possible loss of data
+     1>d:\autodevice 1113\autodevice\axismovedlg.cpp(154): warning C4244: 'argument' : conversion from 'DOUBLE' to 'long', possible loss of data
+     1>d:\autodevice 1113\autodevice\axismovedlg.cpp(166): warning C4244: 'argument' : conversion from 'DOUBLE' to 'long', possible loss of data
+     1>d:\autodevice 1113\autodevice\axismovedlg.cpp(181): warning C4244: '=' : conversion from 'DWORD' to 'WORD', possible loss of data
+     1>d:\autodevice 1113\autodevice\axismovedlg.cpp(191): warning C4244: '=' : conversion from 'DWORD' to 'WORD', possible loss of data
+     1>d:\autodevice 1113\autodevice\axismovedlg.cpp(201): warning C4244: '=' : conversion from 'DWORD' to 'WORD', possible loss of data
+     1>d:\autodevice 1113\autodevice\axismovedlg.cpp(211): warning C4244: '=' : conversion from 'DWORD' to 'WORD', possible loss of data
+         AutoDeviceView.cpp
+     1>d:\autodevice 1113\autodevice\opencv\include\opencv2\flann\logger.h(66): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\visual studio 2010\vc\include\stdio.h(234) : see declaration of 'fopen'
+     1>d:\autodevice 1113\autodevice\autodeviceview.cpp(227): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\visual studio 2010\vc\include\stdio.h(234) : see declaration of 'fopen'
+     1>d:\autodevice 1113\autodevice\autodeviceview.cpp(1337): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\visual studio 2010\vc\include\stdio.h(234) : see declaration of 'fopen'
+     1>d:\autodevice 1113\autodevice\autodeviceview.cpp(1440): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\visual studio 2010\vc\include\stdio.h(234) : see declaration of 'fopen'
+     1>d:\autodevice 1113\autodevice\autodeviceview.cpp(1461): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\visual studio 2010\vc\include\stdio.h(234) : see declaration of 'fopen'
+     1>d:\autodevice 1113\autodevice\autodeviceview.cpp(1754): warning C4244: '=' : conversion from 'DWORD' to 'WORD', possible loss of data
+     1>d:\autodevice 1113\autodevice\autodeviceview.cpp(1958): warning C4244: '=' : conversion from 'DWORD' to 'WORD', possible loss of data
+     1>d:\autodevice 1113\autodevice\autodeviceview.cpp(2364): warning C4244: '=' : conversion from 'DOUBLE' to 'int', possible loss of data
+     1>d:\autodevice 1113\autodevice\autodeviceview.cpp(2365): warning C4244: '=' : conversion from 'DOUBLE' to 'int', possible loss of data
+     1>d:\autodevice 1113\autodevice\autodeviceview.cpp(2393): warning C4244: 'argument' : conversion from 'DOUBLE' to 'long', possible loss of data
+     1>d:\autodevice 1113\autodevice\autodeviceview.cpp(2397): warning C4244: 'argument' : conversion from 'DOUBLE' to 'long', possible loss of data
+     1>d:\autodevice 1113\autodevice\autodeviceview.cpp(2401): warning C4244: 'argument' : conversion from 'DOUBLE' to 'long', possible loss of data
+         Generating Code...
+     1>d:\autodevice 1113\autodevice\autodeviceview.cpp(451): warning C4715: 'CAutoDeviceView::OnEraseBkgnd' : not all control paths return a value
+         Compiling...
+         AutoDeviceDoc.cpp
+     1>d:\autodevice 1113\autodevice\opencv\include\opencv2\flann\logger.h(66): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\visual studio 2010\vc\include\stdio.h(234) : see declaration of 'fopen'
+         AutoDevice.cpp
+     1>d:\autodevice 1113\autodevice\opencv\include\opencv2\flann\logger.h(66): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\visual studio 2010\vc\include\stdio.h(234) : see declaration of 'fopen'
+     1>d:\autodevice 1113\autodevice\autodevice.cpp(432): warning C4244: '=' : conversion from 'double' to 'long', possible loss of data
+     1>d:\autodevice 1113\autodevice\autodevice.cpp(437): warning C4244: '=' : conversion from 'double' to 'long', possible loss of data
+     1>d:\autodevice 1113\autodevice\autodevice.cpp(442): warning C4244: '=' : conversion from 'double' to 'long', possible loss of data
+     1>d:\autodevice 1113\autodevice\autodevice.cpp(447): warning C4244: '=' : conversion from 'double' to 'long', possible loss of data
+     1>d:\autodevice 1113\autodevice\autodevice.cpp(457): warning C4244: '=' : conversion from 'DWORD' to 'WORD', possible loss of data
+     1>d:\autodevice 1113\autodevice\autodevice.cpp(459): warning C4244: '=' : conversion from 'DWORD' to 'WORD', possible loss of data
+     1>d:\autodevice 1113\autodevice\autodevice.cpp(465): warning C4244: '=' : conversion from 'DWORD' to 'WORD', possible loss of data
+     1>d:\autodevice 1113\autodevice\autodevice.cpp(467): warning C4244: '=' : conversion from 'DWORD' to 'WORD', possible loss of data
+     1>d:\autodevice 1113\autodevice\autodevice.cpp(515): warning C4244: '=' : conversion from 'DWORD' to 'WORD', possible loss of data
+     1>d:\autodevice 1113\autodevice\autodevice.cpp(520): warning C4244: '=' : conversion from 'DWORD' to 'WORD', possible loss of data
+     1>d:\autodevice 1113\autodevice\autodevice.cpp(526): warning C4244: '=' : conversion from 'DWORD' to 'WORD', possible loss of data
+     1>d:\autodevice 1113\autodevice\autodevice.cpp(529): warning C4244: '=' : conversion from 'DWORD' to 'WORD', possible loss of data
+     1>d:\autodevice 1113\autodevice\autodevice.cpp(531): warning C4244: '=' : conversion from 'DWORD' to 'WORD', possible loss of data
+     1>d:\autodevice 1113\autodevice\autodevice.cpp(533): warning C4244: '=' : conversion from 'DWORD' to 'WORD', possible loss of data
+     1>d:\autodevice 1113\autodevice\autodevice.cpp(556): warning C4244: '=' : conversion from 'DWORD' to 'WORD', possible loss of data
+     1>d:\autodevice 1113\autodevice\autodevice.cpp(558): warning C4244: '=' : conversion from 'DWORD' to 'WORD', possible loss of data
+     1>d:\autodevice 1113\autodevice\autodevice.cpp(560): warning C4244: '=' : conversion from 'DWORD' to 'WORD', possible loss of data
+     1>d:\autodevice 1113\autodevice\autodevice.cpp(563): warning C4244: '=' : conversion from 'DWORD' to 'WORD', possible loss of data
+     1>d:\autodevice 1113\autodevice\autodevice.cpp(565): warning C4244: '=' : conversion from 'DWORD' to 'WORD', possible loss of data
+     1>d:\autodevice 1113\autodevice\autodevice.cpp(567): warning C4244: '=' : conversion from 'DWORD' to 'WORD', possible loss of data
+     1>d:\autodevice 1113\autodevice\autodevice.cpp(570): warning C4244: '=' : conversion from 'DWORD' to 'WORD', possible loss of data
+     1>d:\autodevice 1113\autodevice\autodevice.cpp(572): warning C4244: '=' : conversion from 'DWORD' to 'WORD', possible loss of data
+     1>d:\autodevice 1113\autodevice\autodevice.cpp(574): warning C4244: '=' : conversion from 'DWORD' to 'WORD', possible loss of data
+     1>d:\autodevice 1113\autodevice\autodevice.cpp(577): warning C4244: '=' : conversion from 'DWORD' to 'WORD', possible loss of data
+     1>d:\autodevice 1113\autodevice\autodevice.cpp(579): warning C4244: '=' : conversion from 'DWORD' to 'WORD', possible loss of data
+     1>d:\autodevice 1113\autodevice\autodevice.cpp(581): warning C4244: '=' : conversion from 'DWORD' to 'WORD', possible loss of data
+     1>d:\autodevice 1113\autodevice\autodevice.cpp(608): warning C4244: 'argument' : conversion from 'DOUBLE' to 'long', possible loss of data
+     1>d:\autodevice 1113\autodevice\autodevice.cpp(621): warning C4244: 'argument' : conversion from 'DOUBLE' to 'long', possible loss of data
+     1>d:\autodevice 1113\autodevice\autodevice.cpp(628): warning C4244: 'argument' : conversion from 'DOUBLE' to 'long', possible loss of data
+     1>d:\autodevice 1113\autodevice\autodevice.cpp(635): warning C4244: 'argument' : conversion from 'DOUBLE' to 'long', possible loss of data
+     1>d:\autodevice 1113\autodevice\autodevice.cpp(642): warning C4244: 'argument' : conversion from 'DOUBLE' to 'long', possible loss of data
+     1>d:\autodevice 1113\autodevice\autodevice.cpp(679): warning C4244: '=' : conversion from 'DWORD' to 'WORD', possible loss of data
+     1>d:\autodevice 1113\autodevice\autodevice.cpp(684): warning C4244: '=' : conversion from 'DWORD' to 'WORD', possible loss of data
+     1>d:\autodevice 1113\autodevice\autodevice.cpp(689): warning C4244: '=' : conversion from 'DWORD' to 'WORD', possible loss of data
+     1>d:\autodevice 1113\autodevice\autodevice.cpp(694): warning C4244: '=' : conversion from 'DWORD' to 'WORD', possible loss of data
+     1>d:\autodevice 1113\autodevice\autodevice.cpp(776): warning C4244: 'argument' : conversion from 'DOUBLE' to 'long', possible loss of data
+     1>d:\autodevice 1113\autodevice\autodevice.cpp(780): warning C4244: 'argument' : conversion from 'DOUBLE' to 'long', possible loss of data
+     1>d:\autodevice 1113\autodevice\autodevice.cpp(861): warning C4101: 'e' : unreferenced local variable
+         AppConDlg.cpp
+     1>d:\autodevice 1113\autodevice\appcondlg.cpp(82): warning C4244: 'argument' : conversion from 'DOUBLE' to 'long', possible loss of data
+         AddSolderDlg.cpp
+     1>d:\autodevice 1113\autodevice\opencv\include\opencv2\flann\logger.h(66): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\visual studio 2010\vc\include\stdio.h(234) : see declaration of 'fopen'
+         GxmcGerber.cpp
+     1>d:\autodevice 1113\gxmccode\gxmcgerber.cpp(535): warning C4482: nonstandard extension used: enum 'Gxmc_Gerber::eUnit' used in qualified name
+     1>d:\autodevice 1113\gxmccode\gxmcgerber.cpp(535): warning C4482: nonstandard extension used: enum 'Gxmc_Gerber::eUnit' used in qualified name
+     1>d:\autodevice 1113\gxmccode\gxmcgerber.cpp(1001): warning C4482: nonstandard extension used: enum 'Gxmc_Gerber::eAdName' used in qualified name
+     1>d:\autodevice 1113\gxmccode\gxmcgerber.cpp(2136): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\autodevice 1113\gxmccode\gxmcgerber.cpp(2158): warning C4018: '<' : signed/unsigned mismatch
+         GxmcDraw.cpp
+     1>d:\autodevice 1113\gxmccode\gxmcdraw.cpp(36): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>d:\autodevice 1113\gxmccode\gxmcdraw.cpp(37): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>d:\autodevice 1113\gxmccode\gxmcdraw.cpp(288): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>d:\autodevice 1113\gxmccode\gxmcdraw.cpp(359): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>d:\autodevice 1113\gxmccode\gxmcdraw.cpp(449): warning C4101: 'pointY' : unreferenced local variable
+     1>d:\autodevice 1113\gxmccode\gxmcdraw.cpp(449): warning C4101: 'pointX' : unreferenced local variable
+         GxmcDatabase.cpp
+     1>d:\autodevice 1113\gxmccode\gxmcdatabase.cpp(825): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>d:\autodevice 1113\gxmccode\gxmcdatabase.cpp(888): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>d:\autodevice 1113\gxmccode\gxmcdatabase.cpp(1021): warning C4482: nonstandard extension used: enum 'DataTypeEnum' used in qualified name
+     1>d:\autodevice 1113\gxmccode\gxmcdatabase.cpp(1023): warning C4482: nonstandard extension used: enum 'DataTypeEnum' used in qualified name
+         Generating Code...
+       ResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D _DEBUG /D _UNICODE /D UNICODE /l"0x0804" /I"..\IntermediateOutput\Visual Studio 2010 Intermediate Directory\\" /nologo /fo"..\IntermediateOutput\Visual Studio 2010 Intermediate Directory\AutoDevice.res" AutoDevice.rc 
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"..\IntermediateOutput\Visual Studio 2010 Intermediate Directory\AutoDevice.exe.embed.manifest.res" "..\IntermediateOutput\Visual Studio 2010 Intermediate Directory\AutoDevice_manifest.rc" 
+       Link:
+         D:\Visual Studio 2010\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\AutoDevice 1113\Debug\AutoDevice.exe" /INCREMENTAL /NOLOGO /LIBPATH:"D:\Basler\pylon 5\development\lib\Win32" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib opencv_core2410d.lib opencv_features2d2410d.lib opencv_highgui2410d.lib opencv_imgproc2410d.lib /MANIFEST /ManifestFile:"..\IntermediateOutput\Visual Studio 2010 Intermediate Directory\AutoDevice.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"../IntermediateOutput/Pdb/AutoDevice.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\AutoDevice 1113\Debug\AutoDevice.lib" /MACHINE:X86 /PROFILE "..\IntermediateOutput\Visual Studio 2010 Intermediate Directory\AutoDevice.res"
+         "..\IntermediateOutput\Visual Studio 2010 Intermediate Directory\AutoDevice.exe.embed.manifest.res"
+         "..\IntermediateOutput\Visual Studio 2010 Intermediate Directory\GxmcDatabase.obj"
+         "..\IntermediateOutput\Visual Studio 2010 Intermediate Directory\GxmcDraw.obj"
+         "..\IntermediateOutput\Visual Studio 2010 Intermediate Directory\GxmcGerber.obj"
+         "..\IntermediateOutput\Visual Studio 2010 Intermediate Directory\AddSolderDlg.obj"
+         "..\IntermediateOutput\Visual Studio 2010 Intermediate Directory\AppConDlg.obj"
+         "..\IntermediateOutput\Visual Studio 2010 Intermediate Directory\AutoDevice.obj"
+         "..\IntermediateOutput\Visual Studio 2010 Intermediate Directory\AutoDeviceDoc.obj"
+         "..\IntermediateOutput\Visual Studio 2010 Intermediate Directory\AutoDeviceView.obj"
+         "..\IntermediateOutput\Visual Studio 2010 Intermediate Directory\AxisMoveDlg.obj"
+         "..\IntermediateOutput\Visual Studio 2010 Intermediate Directory\AxisParDlg.obj"
+         "..\IntermediateOutput\Visual Studio 2010 Intermediate Directory\AxisZeroDlg.obj"
+         "..\IntermediateOutput\Visual Studio 2010 Intermediate Directory\BaselineCorrectView.obj"
+         "..\IntermediateOutput\Visual Studio 2010 Intermediate Directory\CameraParDlg.obj"
+         "..\IntermediateOutput\Visual Studio 2010 Intermediate Directory\CheckParDlg.obj"
+         "..\IntermediateOutput\Visual Studio 2010 Intermediate Directory\CvvImage.obj"
+         "..\IntermediateOutput\Visual Studio 2010 Intermediate Directory\ExtendHoughCircle.obj"
+         "..\IntermediateOutput\Visual Studio 2010 Intermediate Directory\PcbInspect.obj"
+         "..\IntermediateOutput\Visual Studio 2010 Intermediate Directory\DrawMenu.obj"
+         "..\IntermediateOutput\Visual Studio 2010 Intermediate Directory\Gerber.obj"
+         "..\IntermediateOutput\Visual Studio 2010 Intermediate Directory\Label.obj"
+         "..\IntermediateOutput\Visual Studio 2010 Intermediate Directory\Lala.obj"
+         "..\IntermediateOutput\Visual Studio 2010 Intermediate Directory\ScrollBitmapWnd.obj"
+         "..\IntermediateOutput\Visual Studio 2010 Intermediate Directory\MainFrm.obj"
+         "..\IntermediateOutput\Visual Studio 2010 Intermediate Directory\MeasureView.obj"
+         "..\IntermediateOutput\Visual Studio 2010 Intermediate Directory\NavigateDlg.obj"
+         "..\IntermediateOutput\Visual Studio 2010 Intermediate Directory\NewProjectDlg.obj"
+         "..\IntermediateOutput\Visual Studio 2010 Intermediate Directory\ProjectView.obj"
+         "..\IntermediateOutput\Visual Studio 2010 Intermediate Directory\stdafx.obj"
+     1>LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/PROFILE' specification
+     1>GxmcDatabase.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/OPT:REF' specification
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"..\IntermediateOutput\Visual Studio 2010 Intermediate Directory\AutoDevice.exe.embed.manifest" /manifest "..\IntermediateOutput\Visual Studio 2010 Intermediate Directory\AutoDevice.exe.intermediate.manifest" "D:\Visual Studio 2010\VC\Include\Manifest\dpiaware.manifest"
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"..\IntermediateOutput\Visual Studio 2010 Intermediate Directory\AutoDevice.exe.embed.manifest.res" "..\IntermediateOutput\Visual Studio 2010 Intermediate Directory\AutoDevice_manifest.rc" 
+       LinkEmbedManifest:
+         D:\Visual Studio 2010\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\AutoDevice 1113\Debug\AutoDevice.exe" /INCREMENTAL /NOLOGO /LIBPATH:"D:\Basler\pylon 5\development\lib\Win32" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib opencv_core2410d.lib opencv_features2d2410d.lib opencv_highgui2410d.lib opencv_imgproc2410d.lib /MANIFEST /ManifestFile:"..\IntermediateOutput\Visual Studio 2010 Intermediate Directory\AutoDevice.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"../IntermediateOutput/Pdb/AutoDevice.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\AutoDevice 1113\Debug\AutoDevice.lib" /MACHINE:X86 /PROFILE "..\IntermediateOutput\Visual Studio 2010 Intermediate Directory\AutoDevice.res"
+         "..\IntermediateOutput\Visual Studio 2010 Intermediate Directory\AutoDevice.exe.embed.manifest.res"
+         "..\IntermediateOutput\Visual Studio 2010 Intermediate Directory\GxmcDatabase.obj"
+         "..\IntermediateOutput\Visual Studio 2010 Intermediate Directory\GxmcDraw.obj"
+         "..\IntermediateOutput\Visual Studio 2010 Intermediate Directory\GxmcGerber.obj"
+         "..\IntermediateOutput\Visual Studio 2010 Intermediate Directory\AddSolderDlg.obj"
+         "..\IntermediateOutput\Visual Studio 2010 Intermediate Directory\AppConDlg.obj"
+         "..\IntermediateOutput\Visual Studio 2010 Intermediate Directory\AutoDevice.obj"
+         "..\IntermediateOutput\Visual Studio 2010 Intermediate Directory\AutoDeviceDoc.obj"
+         "..\IntermediateOutput\Visual Studio 2010 Intermediate Directory\AutoDeviceView.obj"
+         "..\IntermediateOutput\Visual Studio 2010 Intermediate Directory\AxisMoveDlg.obj"
+         "..\IntermediateOutput\Visual Studio 2010 Intermediate Directory\AxisParDlg.obj"
+         "..\IntermediateOutput\Visual Studio 2010 Intermediate Directory\AxisZeroDlg.obj"
+         "..\IntermediateOutput\Visual Studio 2010 Intermediate Directory\BaselineCorrectView.obj"
+         "..\IntermediateOutput\Visual Studio 2010 Intermediate Directory\CameraParDlg.obj"
+         "..\IntermediateOutput\Visual Studio 2010 Intermediate Directory\CheckParDlg.obj"
+         "..\IntermediateOutput\Visual Studio 2010 Intermediate Directory\CvvImage.obj"
+         "..\IntermediateOutput\Visual Studio 2010 Intermediate Directory\ExtendHoughCircle.obj"
+         "..\IntermediateOutput\Visual Studio 2010 Intermediate Directory\PcbInspect.obj"
+         "..\IntermediateOutput\Visual Studio 2010 Intermediate Directory\DrawMenu.obj"
+         "..\IntermediateOutput\Visual Studio 2010 Intermediate Directory\Gerber.obj"
+         "..\IntermediateOutput\Visual Studio 2010 Intermediate Directory\Label.obj"
+         "..\IntermediateOutput\Visual Studio 2010 Intermediate Directory\Lala.obj"
+         "..\IntermediateOutput\Visual Studio 2010 Intermediate Directory\ScrollBitmapWnd.obj"
+         "..\IntermediateOutput\Visual Studio 2010 Intermediate Directory\MainFrm.obj"
+         "..\IntermediateOutput\Visual Studio 2010 Intermediate Directory\MeasureView.obj"
+         "..\IntermediateOutput\Visual Studio 2010 Intermediate Directory\NavigateDlg.obj"
+         "..\IntermediateOutput\Visual Studio 2010 Intermediate Directory\NewProjectDlg.obj"
+         "..\IntermediateOutput\Visual Studio 2010 Intermediate Directory\ProjectView.obj"
+         "..\IntermediateOutput\Visual Studio 2010 Intermediate Directory\stdafx.obj"
+     1>LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/PROFILE' specification
+     1>GxmcDatabase.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/OPT:REF' specification
+         AutoDevice.vcxproj -> D:\AutoDevice 1113\Debug\AutoDevice.exe
+       FinalizeBuildStatus:
+         Deleting file "..\IntermediateOutput\Visual Studio 2010 Intermediate Directory\AutoDevice.unsuccessfulbuild".
+         Touching "..\IntermediateOutput\Visual Studio 2010 Intermediate Directory\AutoDevice.lastbuildstate".
+     1>Done Building Project "D:\AutoDevice 1113\AutoDevice\AutoDevice.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:53.94
